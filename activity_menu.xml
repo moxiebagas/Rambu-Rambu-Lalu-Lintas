@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background1"
+    android:orientation="vertical"
+    tools:context=".menu">
+
+
+    <Button
+        android:id="@+id/btn_rambu"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="250dp"
+        android:background="@drawable/btnmenurambu" />
+
+    <Button
+        android:id="@+id/btn_kuis"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/btn_rambu"
+        android:background="@drawable/btnmenupg" />
+
+    <Button
+        android:id="@+id/btn_tentang"
+        android:layout_width="95dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="80dp"
+        android:layout_alignTop="@+id/btn_keluar"
+        android:background="@drawable/buttontentang" />
+
+    <Button
+        android:id="@+id/btn_keluar"
+        android:layout_width="95dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="185dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="118dp"
+        android:background="@drawable/buttonkeluar" />
+
+</RelativeLayout>

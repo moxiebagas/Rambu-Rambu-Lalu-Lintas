@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    tools:context=".tentang">
+
+    <Button
+        android:id="@+id/btnback"
+        android:layout_width="80dp"
+        android:layout_height="65dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/kembali" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:textColor="#000000"
+        android:textSize="22dp"
+        android:gravity="center"
+        android:text="Aplikasi ini merupakan Aplikasi Pengenalan Rambu - Rambu Lalu Lintas. Aplikasi ditujukan untuk anak usia dini. Tujuan pembuatan aplikasi ini untuk membantu memberikan pemahaman mengenai rambu - rambu lalu lintas pada anak."
+        android:textStyle="bold" />
+
+</LinearLayout>

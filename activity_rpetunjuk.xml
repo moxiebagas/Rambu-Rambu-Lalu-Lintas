@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".rpetunjuk">
+
+    <Button
+        android:id="@+id/btnback"
+        android:layout_width="80dp"
+        android:layout_height="65dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/kembali" />
+
+    <Button
+        android:id="@+id/jawaban1"
+        android:layout_width="105dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="17dp"
+        android:layout_marginTop="160dp"
+        android:background="@drawable/petunjuk1" />
+
+    <Button
+        android:id="@+id/jawaban2"
+        android:layout_width="105dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="160dp"
+        android:layout_toRightOf="@+id/jawaban1"
+        android:background="@drawable/petunjuk2" />
+
+    <Button
+        android:id="@+id/rambu3"
+        android:layout_width="105dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="160dp"
+        android:layout_toRightOf="@+id/jawaban2"
+        android:background="@drawable/petunjuk3" />
+
+    <Button
+        android:id="@+id/jawaban3"
+        android:layout_width="105dp"
+        android:layout_height="100dp"
+        android:layout_alignLeft="@+id/jawaban1"
+        android:layout_alignStart="@+id/jawaban1"
+        android:layout_below="@+id/jawaban1"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/petunjuk4" />
+
+    <Button
+        android:id="@+id/jawaban4"
+        android:layout_width="105dp"
+        android:layout_height="100dp"
+        android:layout_alignEnd="@+id/jawaban2"
+        android:layout_alignRight="@+id/jawaban2"
+        android:layout_alignTop="@+id/jawaban3"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/petunjuk5" />
+
+    <Button
+        android:id="@+id/rambu6"
+        android:layout_width="105dp"
+        android:layout_height="100dp"
+        android:layout_alignEnd="@+id/rambu3"
+        android:layout_alignRight="@+id/rambu3"
+        android:layout_below="@+id/rambu3"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/petunjuk6" />
+
+    <Button
+        android:id="@+id/rambu7"
+        android:layout_width="105dp"
+        android:layout_height="100dp"
+        android:layout_alignLeft="@+id/jawaban3"
+        android:layout_alignStart="@+id/jawaban3"
+        android:layout_below="@+id/jawaban3"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/petunjuk7" />
+
+    <Button
+        android:id="@+id/rambu8"
+        android:layout_width="105dp"
+        android:layout_height="100dp"
+        android:layout_alignLeft="@+id/jawaban4"
+        android:layout_alignStart="@+id/jawaban4"
+        android:layout_alignTop="@+id/rambu7"
+        android:background="@drawable/petunjuk8" />
+
+    <Button
+        android:id="@+id/rambu9"
+        android:layout_width="105dp"
+        android:layout_height="100dp"
+        android:layout_alignEnd="@+id/rambu6"
+        android:layout_alignRight="@+id/rambu6"
+        android:layout_below="@+id/rambu6"
+        android:background="@drawable/petunjuk9" />
+
+    <ImageView
+        android:id="@+id/popup"
+        android:layout_width="330dp"
+        android:layout_height="300dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="170dp" />
+
+</RelativeLayout>
